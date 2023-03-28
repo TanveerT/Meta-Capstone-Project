@@ -13,7 +13,7 @@ const Filters = ({ onChange, selections, sections }) => {
 						flex: 1 / sections.length,
 						justifyContent: "center",
 						alignItems: "center",
-						padding: 16,
+						padding: 8,
 						backgroundColor: selections[index]
 							? "#495e57"
 							: "#edefee",

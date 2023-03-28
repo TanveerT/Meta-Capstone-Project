@@ -174,8 +174,7 @@ const Home = ({ navigation }) => {
 						<Text style={styles.heroHeader2}>Chicago</Text>
 						<Text style={styles.heroText}>
 							We are a family owned Mediterranean restaurant,
-							focused on traditional recipes served with a modern
-							twist.
+							focused on traditional recipes served ...
 						</Text>
 					</View>
 					<Image
@@ -246,6 +245,7 @@ const styles = StyleSheet.create({
 		backgroundColor: "#e4e4e4",
 		shadowRadius: 0,
 		shadowOpacity: 0,
+		height: 50,
 	},
 	item: {
 		flexDirection: "row",
@@ -303,19 +303,20 @@ const styles = StyleSheet.create({
 	},
 	heroSection: {
 		backgroundColor: "#495e57",
-		padding: 15,
+		padding: 8,
 	},
 	heroHeader: {
 		color: "#f4ce14",
 		fontWeight: "bold",
-		fontSize: 36,
+		fontSize: 24,
 	},
 	heroHeader2: {
 		color: "#fff",
-		fontSize: 24,
+		fontSize: 18,
 	},
 	heroText: {
 		color: "#fff",
+		fontSize: 14,
 	},
 	heroBody: {
 		flexDirection: "row",
@@ -330,9 +331,9 @@ const styles = StyleSheet.create({
 		borderRadius: 12,
 	},
 	delivery: {
-		fontSize: 22,
+		fontSize: 18,
 		fontWeight: "bold",
-		padding: 15,
+		padding: 8,
 	},
 });
 
